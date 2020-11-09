@@ -1,0 +1,7 @@
+annotations:
+  catalog.cattle.io/namespace: bookinfo-created
+apiVersion: v2
+name: bookinfo
+description: BookInfo Bundle
+version: 0.0.0
+appVersion: 0.0.0
