@@ -3,3 +3,6 @@ helm:
   releaseName: rancher-istio
   repo: https://charts.rancher.io
   chart: rancher-istio
+values:
+  sidecarInjectorWebhook:
+    enableNamespacesByDefault: true
